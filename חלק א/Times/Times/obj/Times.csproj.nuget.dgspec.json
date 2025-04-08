@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1\\Desktop\\תוכנית הדסים\\תרגיל בית\\חלק א\\Times\\Times\\Times.csproj": {}
+    "C:\\Users\\1\\Desktop\\Test-Hadasim-5.0-RivkaSheiner\\חלק א\\Times\\Times\\Times.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1\\Desktop\\תוכנית הדסים\\תרגיל בית\\חלק א\\Times\\Times\\Times.csproj": {
+    "C:\\Users\\1\\Desktop\\Test-Hadasim-5.0-RivkaSheiner\\חלק א\\Times\\Times\\Times.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1\\Desktop\\תוכנית הדסים\\תרגיל בית\\חלק א\\Times\\Times\\Times.csproj",
+        "projectUniqueName": "C:\\Users\\1\\Desktop\\Test-Hadasim-5.0-RivkaSheiner\\חלק א\\Times\\Times\\Times.csproj",
         "projectName": "Times",
-        "projectPath": "C:\\Users\\1\\Desktop\\תוכנית הדסים\\תרגיל בית\\חלק א\\Times\\Times\\Times.csproj",
+        "projectPath": "C:\\Users\\1\\Desktop\\Test-Hadasim-5.0-RivkaSheiner\\חלק א\\Times\\Times\\Times.csproj",
         "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1\\Desktop\\תוכנית הדסים\\תרגיל בית\\חלק א\\Times\\Times\\obj\\",
+        "outputPath": "C:\\Users\\1\\Desktop\\Test-Hadasim-5.0-RivkaSheiner\\חלק א\\Times\\Times\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
