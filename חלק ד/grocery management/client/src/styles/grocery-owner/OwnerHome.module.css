@@ -1,0 +1,84 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.createButton {
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.createButton:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.createButton:active {
+  transform: scale(0.95);
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navbar button {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.statusFilters {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.filterItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: #ccc;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.filterItem:hover {
+  transform: scale(1.05);
+  color: #fff;
+}
+
+.activeFilter {
+  color: #b97bdb;
+  border-bottom: 3px solid #b97bdb;
+  padding-bottom: 5px;
+}
+
+.filterIcon {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.filterLabel {
+  font-size: 0.9rem;
+}

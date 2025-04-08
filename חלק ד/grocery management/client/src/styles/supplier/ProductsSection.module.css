@@ -1,0 +1,53 @@
+.productsWrapper {
+  padding: 2rem;
+  background-color: #f3e6ff;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: right;
+  color: #4b2f8d;
+  font-weight: 600;
+  border-bottom: 2px solid #d4b6f7;
+  padding-bottom: 0.5rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.8rem;
+}
+
+.productCard {
+  background: linear-gradient(135deg, #f4e1f9, #e6ccf9);
+  border: 1px solid #d6b8f1;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  direction: rtl;
+  text-align: right;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.productCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.productName {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #4b2f8d;
+  margin-bottom: 0.8rem;
+}
+
+.productCard p {
+  margin: 0.3rem 0;
+  color: #7b4d93;
+  font-size: 0.95rem;
+}

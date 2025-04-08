@@ -1,0 +1,139 @@
+.container {
+  background-color: #f8ebfb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  direction: rtl;
+}
+
+.backHomeButton {
+  background-color: #9b4dad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 3rem;
+  color: #6a1b9a;
+  margin-bottom: 1rem;
+}
+
+.formCard {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #9b4dad;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #7e3b8d;
+}
+
+.product-entry {
+  background-color: #f2e8f5;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.add-product-button,
+.remove-product-button {
+  background-color: #b57bc5;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.productsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.productRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.productRow input {
+  flex: 1;
+}
+
+.removeProductButton, .addProductButton {
+  background-color: transparent;
+  border: none;
+  color: #6a1b9a;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 6px;
+  transition: all 0.2s ease;
+}
+
+.removeProductButton:hover, .addProductButton:hover {
+  background-color: rgba(106, 27, 154, 0.1);
+  color: #6a1b9a;
+  transform: scale(1.2);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.addProductButton {
+  margin-left: auto;
+  border: 2px solid #6a1b9a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #6a1b9a;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  width: 120px;
+  text-align: center;
+}

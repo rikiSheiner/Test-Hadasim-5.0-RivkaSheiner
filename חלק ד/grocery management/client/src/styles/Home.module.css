@@ -1,0 +1,47 @@
+.home {
+  text-align: center;
+  margin-top: 50px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home h1 {
+  font-size: 5rem;
+  color: #9b59b6;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home p {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.link {
+  padding: 15px 30px;
+  background-color: #9b59b6;
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.link:hover {
+  background-color: #8e44ad;
+  transform: scale(1.1);
+}
+
+.link:active {
+  transform: scale(0.9);
+}

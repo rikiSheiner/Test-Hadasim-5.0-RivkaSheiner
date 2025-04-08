@@ -1,0 +1,1 @@
+INSERT INTO grocery_owners(username, password) VALUES('Yosef', 'sh19');

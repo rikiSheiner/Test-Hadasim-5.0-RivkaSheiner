@@ -1,0 +1,19 @@
+.item {
+  border-top: 1px dotted #000;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+.row {
+  margin-bottom: 4px;
+}
+
+.label {
+  display: inline-block;
+  width: 80px;
+}
+
+.value,
+.price {
+  display: inline-block;
+}

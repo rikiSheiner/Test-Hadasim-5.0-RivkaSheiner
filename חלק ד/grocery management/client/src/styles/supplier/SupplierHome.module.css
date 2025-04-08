@@ -1,0 +1,39 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navbar button {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.activePage {
+  background-color: #0070f3;
+  color: white;
+}
+
+.welcomeMessage {
+  font-size: 2rem;
+  margin: 20px 0;
+  padding: 12px 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}

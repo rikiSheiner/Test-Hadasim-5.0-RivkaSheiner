@@ -1,0 +1,16 @@
+.orderList {
+  list-style: none;
+  padding: 0;
+  margin: 30px auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.noOrders {
+  text-align: center;
+  font-size: 2rem;
+  color: #888;
+  margin-top: 50px;
+}
